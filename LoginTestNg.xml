@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "PbBannking" parallel="tests">
+   <test name = "testNG" allow-return-values="true">
+     
+      <classes>
+         <class name = "com.paraBanking.TestLayer.TC_002_LOGIN">
+         <methods>
+               <include name="ValidLogin" />
+            </methods>
+         
+         </class>
+       
+      </classes>
+   </test>
+</suite>

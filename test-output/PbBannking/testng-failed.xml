@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [PbBannking]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="testNG(failed)">
+    <classes>
+      <class name="com.paraBanking.TestLayer.TC_01_PB_Registration">
+        <methods>
+          <include name="Close"/>
+          <include name="initSetup"/>
+          <include name="ValidData"/>
+        </methods>
+      </class> <!-- com.paraBanking.TestLayer.TC_01_PB_Registration -->
+    </classes>
+  </test> <!-- testNG(failed) -->
+</suite> <!-- Failed suite [PbBannking] -->
